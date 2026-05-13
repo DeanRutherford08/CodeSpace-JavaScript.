@@ -1,0 +1,11 @@
+var numbers = [20, 30, 25, 35, -16, 60, -100];
+
+var sum = 0;
+
+for (var i = 0; i < numbers.length; i++) {
+    sum = sum + numbers[i];
+}
+
+var average = sum / numbers.length;
+
+console.log("Average value of the array elements is : " + average + ".");
