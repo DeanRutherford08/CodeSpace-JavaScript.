@@ -1,0 +1,13 @@
+// This program makes a multiplication table for any number the user types
+
+// ask the user for a number
+var num = prompt("Input a number:");
+
+// change the input from text to a number
+num = Number(num);
+
+// go from 1 to 10 and multiply each time
+for (var i = 1; i <= 10; i++) {
+
+    // show the multiplication result
+    console.log(num + " x " + i + " = " + (num * i));
