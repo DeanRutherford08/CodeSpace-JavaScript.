@@ -1,0 +1,29 @@
+// This program checks three numbers and tells if they are all equal,
+// all different, or neither.
+
+// ask the user for the first number
+var num1 = prompt("Input first number:");
+
+// ask the user for the second number
+var num2 = prompt("Input second number:");
+
+// ask the user for the third number
+var num3 = prompt("Input third number:");
+
+// change the inputs from text to numbers
+num1 = Number(num1);
+num2 = Number(num2);
+num3 = Number(num3);
+
+// check if all three numbers are equal
+if (num1 === num2 && num2 === num3) {
+    console.log("All numbers are equal.");
+}
+// check if all three numbers are different
+else if (num1 !== num2 && num1 !== num3 && num2 !== num3) {
+    console.log("All numbers are different.");
+}
+// otherwise they are neither all equal nor all different
+else {
+    console.log("Neither all are equal or different.");
+}
