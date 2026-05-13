@@ -1,0 +1,17 @@
+// This program divides two numbers that the user types in
+
+// ask the user for the first number
+var firstNumber = prompt("Input the first number:");
+
+// ask the user for the second number
+var secondNumber = prompt("Input the second number:");
+
+// turn the text input into actual numbers
+firstNumber = Number(firstNumber);
+secondNumber = Number(secondNumber);
+
+// divide the two numbers
+var result = firstNumber / secondNumber;
+
+// show the result
+console.log("The division of the first number and the second number is: " + result);
