@@ -1,0 +1,29 @@
+// This program checks if three numbers are in increasing order,
+// decreasing order, or neither.
+
+// ask the user for the first number
+var num1 = prompt("Input first number:");
+
+// ask the user for the second number
+var num2 = prompt("Input second number:");
+
+// ask the user for the third number
+var num3 = prompt("Input third number:");
+
+// turn the inputs into numbers (because prompt gives text)
+num1 = Number(num1);
+num2 = Number(num2);
+num3 = Number(num3);
+
+// check if numbers are in increasing order
+if (num1 < num2 && num2 < num3) {
+    console.log("Increasing order.");
+}
+// check if numbers are in decreasing order
+else if (num1 > num2 && num2 > num3) {
+    console.log("Decreasing order.");
+}
+// otherwise they are neither
+else {
+    console.log("Neither increasing or decreasing order.");
+}
