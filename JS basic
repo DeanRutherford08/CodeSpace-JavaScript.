@@ -1,0 +1,23 @@
+// I am doing some math solving in JavaScript(College Course)
+
+// problem a
+// -5 + 8 * 6
+var a = -5 + 8 * 6; // I think * goes first
+
+// problem b
+// (55 + 9) % 9
+var b = (55 + 9) % 9; // % means remainder
+
+// problem c
+// 20 + -3*5 / 8
+var c = 20 + -3 * 5 / 8; // doing multiply and divide first
+
+// problem d
+// 5 + 15 / 3 * 2 - 8 % 3
+var d = 5 + 15 / 3 * 2 - 8 % 3; // lots of stuff here
+
+// printing everything
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
