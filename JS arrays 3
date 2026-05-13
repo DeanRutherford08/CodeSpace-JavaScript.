@@ -1,0 +1,17 @@
+var numbers = [25, 14, 56, 15, 36, 56, 77, 18, 29, 49];
+
+var max = numbers[0];
+var min = numbers[0];
+
+for (var i = 1; i < numbers.length; i++) {
+    if (numbers[i] > max) {
+        max = numbers[i];
+    }
+    if (numbers[i] < min) {
+        min = numbers[i];
+    }
+}
+
+console.log("Original Array: " + JSON.stringify(numbers));
+console.log("Maximum value for the above array = " + max);
+console.log("Minimum value for the above array = " + min);
