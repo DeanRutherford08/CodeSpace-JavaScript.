@@ -1,0 +1,18 @@
+function showArray(arr) {
+    console.log("The content of the array is: " + JSON.stringify(arr));
+}
+
+function findMax(arr) {
+    var max = arr[0];
+    for (var i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    console.log("The max value in the array is: " + max);
+}
+
+var numbers = [10, 2, 3, 4, 7];
+
+showArray(numbers);
+findMax(numbers);
